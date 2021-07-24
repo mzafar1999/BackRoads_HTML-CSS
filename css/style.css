@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
 *,
-::before,
-::after {
+ ::before,
+ ::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -25,7 +25,7 @@
 /*Reset*/
 
 *,
-::before::after {
+ ::before::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -42,7 +42,7 @@ body {
 
 /* global styles */
 
-img {
+img:not(.nav-logo) {
     width: 100%;
     display: block;
 }
@@ -88,7 +88,7 @@ a {
 /* hero */
 
 .hero {
-    min-height: 100vh;
+    min-height: calc(100vh - 62px);
     background-color: var(--primaryColor);
     display: flex;
     align-items: center;
@@ -458,3 +458,183 @@ a {
 
 
 /* end of deals  */
+
+
+/* footer  */
+
+.footerarea {
+    background: var(--mainBlack);
+    text-align: center;
+    color: var(--mainWhite);
+    padding: 0 2rem 0 2rem;
+}
+
+.footer-icons,
+.footer-links {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.footer-link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--mainWhite);
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    margin-right: 1rem;
+    margin-top: 15px;
+    transition: var(--mainTransition);
+}
+
+.footer-link:hover {
+    color: var(--primaryColor);
+}
+
+.footer-icon {
+    color: var(--mainWhite);
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: var(--mainTransition);
+}
+
+.footer-icon:hover {
+    color: var(--primaryColor);
+    transform: translateY(-10%);
+}
+
+.copyright {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+    margin: 0;
+    padding: 1.8rem;
+}
+
+
+/* end of footer  */
+
+
+/* nav  */
+
+.nav-header {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-toggle {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    color: var(--primaryColor);
+    transition: var(--mainTransition);
+}
+
+.nav-toggle:hover {
+    transform: scale(1.2);
+}
+
+.nav-link {
+    display: block;
+    padding: 1rem 2rem;
+    color: var(--mainBlack);
+    text-transform: capitalize;
+    font-weight: bold;
+    transition: var(--mainTransition);
+}
+
+.nav-link:hover {
+    color: var(--primaryColor);
+    background-color: var(--darkGrey);
+    padding-left: 2.5rem;
+}
+
+@media screen and (max-width :785px) {
+    .nav-links {
+        overflow: hidden;
+        height: 0;
+        transition: var(--mainTransition);
+    }
+    .nav-icons {
+        overflow: hidden;
+        height: 0;
+    }
+}
+
+.show-links {
+    height: 270px;
+}
+
+@media screen and (min-width:786px) {
+    .nav-center {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .nav-links {
+        display: flex;
+    }
+    .nav-icons {
+        display: flex;
+    }
+    .nav-toggle {
+        display: none;
+    }
+    .nav-link {
+        padding: 0;
+    }
+    .nav-icon {
+        padding: 0;
+    }
+    .nav-logo {
+        padding: 0;
+        margin: 0;
+    }
+    .nav-link {
+        padding: 0;
+    }
+    .nav-header {
+        padding: 0;
+    }
+    .nav-link {
+        margin-right: 0.7rem;
+    }
+    .nav-link:hover {
+        padding: 0;
+        background: transparent;
+    }
+    .nav-icon {
+        margin-right: 0.7rem;
+        color: var(--primaryColor);
+        transition: var(--mainTransition);
+        font-size: 1.2rem;
+    }
+    .nav-icon:hover {
+        color: var(--mainBlack);
+        transform: translateY(-10%);
+    }
+    .navbar {
+        padding: 1rem 2rem;
+    }
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--mainGrey);
+    box-shadow: var(--lightShadow);
+    transition: var(--mainTransition);
+    z-index: 1;
+}
+
+
+/* end of nav  */

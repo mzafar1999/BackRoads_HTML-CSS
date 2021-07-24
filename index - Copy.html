@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./fontawesome-free-5.9.0-web/css/all.min.css">
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="./images/favicon2.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header id="home">
+        <nav></nav>
+        <div class="hero">
+            <div class="hero-banner">
+                <h1 class="hero-title">
+                    continue exploring
+                </h1>
+                <p class="hero-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Doloribus distinctio optio accusamus! Eveniet laboriosam et distinctio.
+                </p>
+                <a href="#featured" class="btn-white">Explore Tours</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- about  -->
+    <section class="section about" id="about">
+        <div class="title-wrapper">
+            <h2 class="title">
+                about <span class="subtitle">us</span>
+            </h2>
+        </div>
+        <!-- end of about title  -->
+        <!-- about center -->
+        <div class="about-center section-center">
+            <article class="about-img">
+                <img src="2.jpg" alt="" class="about-photo">
+            </article>
+
+            <article class="about-info">
+                <h3>Explore the difference</h3>
+                <p>
+                    The Poem Pavilion- the design for the U.K Pavilion at EXPO 2020 Dubai. What if this became a place where 25 million visitors from every part of the world 🌎 could each contribute to a collective text, a poem by the planet, transcending national identities,
+                    confronting the divisive prosaic with the collective poetic. 📐 by Es Devlin 📍 Dubai Emirati 🇦🇪
+                </p>
+                <a class="btn-primary" href="#">Read More</a>
+            </article>
+        </div>
+    </section>
+    <!-- end of about -->
+    <!-- our services section  -->
+    <section class="section services" id="services">
+        <div class="title-wrapper">
+            <h2 class="title">
+                our <span class="subtitle">services</span>
+            </h2>
+        </div>
+        <div class="section-center services-center">
+            <article class="service">
+                <span class="service-icon">
+                    <i class="fas fa-wallet fa-fw"></i>
+                </span>
+                <div class="service-info">
+                    <h4 class="service-title">saving money</h4>
+                </div>
+                <p class="service-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, quasi!
+                </p>
+            </article>
+            <article class="service">
+                <span class="service-icon">
+                    <i class="fas fa-tree fa-fw"></i>
+                </span>
+                <div class="service-info">
+                    <h4 class="service-title">endless hiking</h4>
+                </div>
+                <p class="service-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, quasi!
+                </p>
+            </article>
+            <article class="service">
+                <span class="service-icon">
+                    <i class="fas fa-socks fa-fw"></i>
+                </span>
+                <div class="service-info">
+                    <h4 class="service-title">amazing comfort</h4>
+                </div>
+                <p class="service-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, quasi!
+                </p>
+            </article>
+        </div>
+    </section>
+    <!-- end of our services section  -->
+    <!-- featured section  -->
+
+    <section class="section featured" id="featured">
+        <div class="title-wrapper">
+            <h2 class="title">
+                featured <span class="subtitle">tours</span>
+            </h2>
+        </div>
+        <div class="section-center featured-center">
+            <!-- single tour   -->
+            <article class="tour-card">
+                <div class="tour-img-container">
+                    <img src="./tour-1.jpeg" alt="" class="tour-img">
+                    <p class="tour-date">august 14th, 2019</p>
+                </div>
+                <div class="tour-footer">
+                    <h4 class="tour-title">
+                        tibet adventure
+                    </h4>
+                    <div class="tour-info">
+                        <p class="tour-country">
+                            <span> <i class="fas fa-map"></i></span> china
+                        </p>
+                        <div class="tour-details">
+                            <p>6 days</p>
+                            <p>from 2100$</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- end of single tour  -->
+            <!-- single tour   -->
+            <article class="tour-card">
+                <div class="tour-img-container">
+                    <img src="./tour-2.jpeg" alt="" class="tour-img">
+                    <p class="tour-date">jan 5th, 2020</p>
+                </div>
+                <div class="tour-footer">
+                    <h4 class="tour-title">
+                        best of java
+                    </h4>
+                    <div class="tour-info">
+                        <p class="tour-country">
+                            <span> <i class="fas fa-map"></i></span> indonisia
+                        </p>
+                        <div class="tour-details">
+                            <p>5 days</p>
+                            <p>from 4300$</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- end of single tour  -->
+            <!-- single tour   -->
+            <article class="tour-card">
+                <div class="tour-img-container">
+                    <img src="./tour-3.jpeg" alt="" class="tour-img">
+                    <p class="tour-date">august 14th, 2019</p>
+                </div>
+                <div class="tour-footer">
+                    <h4 class="tour-title">
+                        blue season
+                    </h4>
+                    <div class="tour-info">
+                        <p class="tour-country">
+                            <span> <i class="fas fa-map"></i></span> new york
+                        </p>
+                        <div class="tour-details">
+                            <p>8 days</p>
+                            <p>from 1100$</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- end of single tour  -->
+            <!-- single tour   -->
+            <article class="tour-card">
+                <div class="tour-img-container">
+                    <img src="./tour-4.jpeg" alt="" class="tour-img">
+                    <p class="tour-date">august 14th, 2019</p>
+                </div>
+                <div class="tour-footer">
+                    <h4 class="tour-title">
+                        forza horizon
+                    </h4>
+                    <div class="tour-info">
+                        <p class="tour-country">
+                            <span> <i class="fas fa-map"></i></span> london
+                        </p>
+                        <div class="tour-details">
+                            <p>5 days</p>
+                            <p>from 4500$</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- end of single tour  -->
+            <!-- single tour   -->
+            <article class="tour-card">
+                <div class="tour-img-container">
+                    <img src="./tour-5.jpeg" alt="" class="tour-img">
+                    <p class="tour-date">august 14th, 2019</p>
+                </div>
+                <div class="tour-footer">
+                    <h4 class="tour-title">
+                        the most wanted
+                    </h4>
+                    <div class="tour-info">
+                        <p class="tour-country">
+                            <span> <i class="fas fa-map"></i></span> kenya
+                        </p>
+                        <div class="tour-details">
+                            <p>3 days</p>
+                            <p>from 6500$</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- end of single tour  -->
+            <!-- single tour   -->
+            <article class="tour-card">
+                <div class="tour-img-container">
+                    <img src="./tour-6.jpeg" alt="" class="tour-img">
+                    <p class="tour-date">august 14th, 2019</p>
+                </div>
+                <div class="tour-footer">
+                    <h4 class="tour-title">
+                        Hit History
+                    </h4>
+                    <div class="tour-info">
+                        <p class="tour-country">
+                            <span> <i class="fas fa-map"></i></span> kenya
+                        </p>
+                        <div class="tour-details">
+                            <p>3 days</p>
+                            <p>from 6500$</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- end of single tour  -->
+        </div>
+        <div class="tour-link">
+            <a href="" class="btn-primary">all tours</a>
+        </div>
+    </section>
+    <!-- end of featured section  -->
+
+    <section class="section gallery" id="gallery">
+        <div class="title-wrapper">
+            <h2 class="title">our <span class="subtitle">gallery</span></h2>
+
+        </div>
+
+        <div class="gallery gallery-center">
+            <div class="gallery-img-container">
+                <img src="tour-1.jpeg" class="gallery-img" alt="">
+                <span class="gallery-icon fas fa-search"></span>
+            </div>
+            <div class="gallery-img-container">
+                <img src="tour-2.jpeg" class="gallery-img" alt="">
+                <span class="gallery-icon fas fa-search"></span>
+            </div>
+            <div class="gallery-img-container">
+                <img src="tour-3.jpeg" class="gallery-img" alt="">
+                <span class="gallery-icon fas fa-search"></span>
+            </div>
+            <div class="gallery-img-container">
+                <img src="tour-4.jpeg" class="gallery-img" alt="">
+                <span class="gallery-icon fas fa-search"></span>
+            </div>
+            <div class="gallery-img-container">
+                <img src="tour-5.jpeg" class="gallery-img" alt="">
+                <span class="gallery-icon fas fa-search"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- end of gallery  -->
+
+    <section class="section daels" id="deals">
+        <div class="title-wrapper">
+            <h2 class="title">
+                hot <span class="subtitle">deals</span>
+            </h2>
+        </div>
+        <form action="">
+            <div class="input-group">
+                <input type="email" name="" class="form-control" placeholder="your email">
+                <button type="submit" class="btn-submit">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="section footer">
+        <div class="footer-links">
+            <a href="#home" class="footer-link">Home</a>
+            <a href="#about" class="footer-link">About</a>
+            <a href="#services" class="footer-link">Services</a>
+            <a href="#featured" class="footer-link">Featured</a>
+            <a href="#gallery" class="footer-link">Gallery</a>
+        </div>
+        <div class="footer-icons">
+            <a href="" class="footer-icon">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="" class="footer-icon">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="footer-icon">
+                <i class="fab fa-squarespace"></i>
+            </a>
+        </div>
+        <p class="copyrightt">
+            copyright &copy; backroads travel tours company <span id="date">
+                2021
+            </span>. all rights reserved
+        </p>
+    </footer>
+
+</body>
+
+</html>
